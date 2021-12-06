@@ -1,3 +1,15 @@
 Isaac
 blue
 gari and beans
+Rice and beans
+
+
+//-------------filesystem(fs)---------------
+const fs = require('fs')
+
+fs.readfile('./Isaac.tex', err =>(
+    if(err){
+        console.log(errr)
+    }
+    console.log(nice!)
+))
